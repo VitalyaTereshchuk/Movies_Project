@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImageName" translatesAutoresizingMaskIntoConstraints="NO" id="C2e-rA-HDp">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C2e-rA-HDp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="48C-BO-M1V"/>
+                            <constraint firstAttribute="trailing" secondItem="C2e-rA-HDp" secondAttribute="trailing" id="J1A-fH-4wp"/>
+                            <constraint firstItem="C2e-rA-HDp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Of9-a5-O4i"/>
+                            <constraint firstItem="C2e-rA-HDp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ebL-bN-YCl"/>
+                            <constraint firstAttribute="bottom" secondItem="C2e-rA-HDp" secondAttribute="bottom" id="iJ0-8i-5Ms"/>
+                            <constraint firstItem="C2e-rA-HDp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="o3I-ZV-OyF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.627906976744185" y="374.03433476394855"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImageName" width="430" height="932"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
