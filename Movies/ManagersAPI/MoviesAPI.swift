@@ -141,7 +141,7 @@ class MoviesAPI {
     
     func search(with query: String, completion: @escaping (Result<[Title], Error>) -> Void) {
         guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
-        guard let url = URL(string:"\(Constants.baseUrl)/3/search/movie?query=Jack+Reacher&api_key=\(Constants.apiKey)&query=\(query)") else {
+        guard let url = URL(string:"\(Constants.baseUrl)/3/search/movie?api_key=\(Constants.apiKey)&query=\(query)") else {
             return
         }
         
